@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Simon")
-		(date "2026-03-20")
+		(date "2026-03-31")
 		(rev "01")
 		(company "Kaffeklubben Labs")
 	)
@@ -204,6 +204,39 @@
 				)
 			)
 			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -750,6 +783,76 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 171.45 60.96)
+		(end 219.71 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "00f4ea08-9959-41ff-88ed-bbf725d2c18e")
+	)
+	(rectangle
+		(start 67.31 60.96)
+		(end 166.37 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a905998e-a499-4152-9614-9ac3ee3a02f4")
+	)
+	(text_box "Push Buttons"
+		(exclude_from_sim no)
+		(at 67.31 57.15 0)
+		(size 99.06 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "4a963896-5a38-4785-99db-b9a5fcc3ca2f")
+	)
+	(text_box "Potentiometer"
+		(exclude_from_sim no)
+		(at 171.45 57.15 0)
+		(size 48.26 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.27 1.27)
+				(bold yes)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "5f01da28-a1d0-4056-9aac-dbd53609aaeb")
+	)
 	(junction
 		(at 76.2 127)
 		(diameter 0)
@@ -806,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 83.82) (xy 215.9 83.82)
+			(xy 198.12 85.09) (xy 195.58 85.09)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 69.85) (xy 203.2 80.01)
+			(xy 182.88 71.12) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 87.63) (xy 203.2 95.25)
+			(xy 182.88 88.9) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 207.01 83.82)
+			(xy 187.96 85.09) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1170,7 @@
 	)
 	(hierarchical_label "POTENTIOMETER"
 		(shape output)
-		(at 218.44 83.82 0)
+		(at 198.12 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1909,7 +2012,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 203.2 69.85 0)
+		(at 182.88 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1921,7 +2024,7 @@
 		(fields_autoplaced yes)
 		(uuid "563d2415-3db9-4070-aeef-e3f216b1e5ee")
 		(property "Reference" "#PWR012"
-			(at 203.2 73.66 0)
+			(at 182.88 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +2035,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 203.2 64.77 0)
+			(at 182.88 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1942,7 +2045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 69.85 0)
+			(at 182.88 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,7 +2056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 69.85 0)
+			(at 182.88 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1964,7 +2067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 69.85 0)
+			(at 182.88 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,7 +2091,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 203.2 83.82 0)
+		(at 182.88 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1999,7 +2102,7 @@
 		(fields_autoplaced yes)
 		(uuid "59e3a7fe-2a9c-4746-8742-602dfc92ab8a")
 		(property "Reference" "RV1"
-			(at 200.66 82.5499 0)
+			(at 180.34 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2010,7 +2113,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 200.66 85.0899 0)
+			(at 180.34 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2021,7 +2124,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
-			(at 203.2 83.82 0)
+			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 83.82 0)
+			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +2146,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 203.2 83.82 0)
+			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2054,7 +2157,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 203.2 83.82 0)
+			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,8 +2167,41 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 203.2 83.82 0)
+		(property "MPN" "RM065-103"
+			(at 182.88 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 182.88 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 182.88 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 182.88 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,7 +2620,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 83.82 270)
+		(at 191.77 85.09 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2496,7 +2632,7 @@
 		(fields_autoplaced yes)
 		(uuid "7de9ede0-0d6e-4934-94eb-23449bf9112a")
 		(property "Reference" "R9"
-			(at 212.09 77.47 90)
+			(at 191.77 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2506,7 +2642,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 212.09 80.01 90)
+			(at 191.77 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2516,7 +2652,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 212.09 85.598 90)
+			(at 191.77 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +2663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 83.82 0)
+			(at 191.77 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +2674,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 83.82 0)
+			(at 191.77 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +2685,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 212.09 83.82 90)
+			(at 191.77 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2696,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 212.09 83.82 90)
+			(at 191.77 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,7 +2879,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 95.25 0)
+		(at 182.88 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2755,7 +2891,7 @@
 		(fields_autoplaced yes)
 		(uuid "980ff1d2-f88d-438e-b38d-d4a1a2dec284")
 		(property "Reference" "#PWR011"
-			(at 203.2 101.6 0)
+			(at 182.88 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2766,7 +2902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 100.33 0)
+			(at 182.88 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2776,7 +2912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 95.25 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +2923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 95.25 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2798,7 +2934,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 95.25 0)
+			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

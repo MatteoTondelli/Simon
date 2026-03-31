@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Simon")
-		(date "2026-03-20")
+		(date "2026-03-31")
 		(rev "01")
 		(company "Kaffeklubben Labs")
 	)
@@ -2058,8 +2058,8 @@
 		)
 	)
 	(rectangle
-		(start 14.224 155.448)
-		(end 70.612 195.58)
+		(start 13.97 156.21)
+		(end 71.12 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -2069,21 +2069,10 @@
 		)
 		(uuid "2af34f66-739d-4164-bbf6-b88a0a603794")
 	)
-	(text "V_{REF} = 0.6V\nV_{REF_min} = 0.588V\nV_{REF_max} = 0.612V\n\n\nV_{OUT} = V_{REF} * (1 + R22 / R23)\n\nV_{OUT} = 9V → R22 = 14kΩ\n\nV_{OUT_min} = 8.82V\nV_{OUT_max} = 9.18V"
-		(exclude_from_sim no)
-		(at 17.272 159.004 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "47f06767-ff75-493c-bf04-c463bf6fb8ee")
-	)
 	(text_box "Step-Up Converter Sizing"
 		(exclude_from_sim no)
-		(at 14.224 152.654 0)
-		(size 56.388 2.794)
+		(at 13.97 152.4 0)
+		(size 57.15 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2095,13 +2084,34 @@
 		)
 		(effects
 			(font
-				(face "Century Gothic")
+				(face "Consolas")
 				(size 1.27 1.27)
 				(bold yes)
 				(color 255 255 255 1)
 			)
 		)
 		(uuid "d6906cdd-19b8-4fac-8ff2-306c36f4da1a")
+	)
+	(text_box "V_{REF} = 0.6V\nV_{REF_min} = 0.588V\nV_{REF_max} = 0.612V\n\n\nV_{OUT} = V_{REF} * (1 + R22 / R23)\n\nV_{OUT} = 9V → R22 = 14kΩ\n\nV_{OUT_min} = 8.82V\nV_{OUT_max} = 9.18V"
+		(exclude_from_sim no)
+		(at 15.24 157.48 0)
+		(size 54.61 36.83)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f0d01a72-ae0f-4942-b88d-3a5282c0f5e4")
 	)
 	(junction
 		(at 187.96 63.5)
