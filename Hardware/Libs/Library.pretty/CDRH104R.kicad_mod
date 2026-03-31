@@ -1,0 +1,127 @@
+(footprint "CDRH104R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8080d1c0-a91c-4c85-a3a8-d3e6cd0e0221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CDRH104R"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8286b539-3348-4254-9452-6c2c7eb0d26a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/catalog/specsheets/smdc-s-a0011496910-1.pdf?_gl=1*206ug5*_gcl_aw*R0NMLjE3NjkzOTczMTUuQ2owS0NRaUFtOWZMQmhDUUFSSXNBSm9OT2NzbnRLa28tVFNRWnBJMWFoaElWVm1CZkp6VHJwV1ZZMjNyMUx2VXBSWEpBUGVSVmdwOHNIVWFBcHhBRUFMd193Y0I.*_gcl_au*MTI5NDMwNzMxNy4xNzczNjkwOTcy*_ga*NzI2NTA3MzE4LjE3MDY5NTA5OTQ.*_ga_15W4STQT4T*czE3NzM2OTA5NzMkbzQ4JGcwJHQxNzczNjkwOTc0JGo1OSRsMCRoMA.."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb654110-7c30-42e3-8a35-5e9e205d6c1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59142d94-dfab-4677-8622-d8a6be790f8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5 -5.1)
+		(end -5 5.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6b120fc-1135-4fda-9ee6-604d9e00aff3")
+	)
+	(fp_line
+		(start 5 -5.1)
+		(end 5 5.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "177c1876-32c0-4423-b3d2-1499e81274d1")
+	)
+	(fp_rect
+		(start -5.25 -5.35)
+		(end 5.25 5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8e0cc73c-cf19-4c63-8fcf-53820fe51661")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "105f68d7-3762-4bc4-80f7-5d35086658de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -4.45)
+		(size 3.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.078125)
+		(uuid "3ea12d27-3867-4313-a361-63bab21caeee")
+	)
+	(pad "2" smd roundrect
+		(at 0 4.45)
+		(size 3.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.078125)
+		(uuid "90957948-ad2a-451c-b42c-a1cdee96ba24")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libs/Library.pretty/3D Models/CDRH104R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
